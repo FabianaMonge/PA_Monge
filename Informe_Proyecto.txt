@@ -1,0 +1,62 @@
+Informe del Proyecto: Sitio Web de Noticias Tecnológicas
+
+Integrantes:
+-Steve Fernando Salas Velarde
+-Diego Armando Choque Caceres
+-Jerek Farick Teran Cusi
+-Fabiana Trinidad Monge Pimentel
+
+1. Presentación del proyecto
+
+El proyecto que hemos desarrollado se llama Noticias Tecnológicas, un sitio web pensado para compartir de manera clara y atractiva información sobre los avances más recientes en el mundo de la tecnología, la inteligencia artificial, la robótica y los gadgets.
+La idea principal es que cualquier usuario pueda entrar, encontrar noticias actualizadas y navegar de forma sencilla, sin importar si usa un celular, una tablet o una computadora.
+
+2. Organización de los archivos
+
+El sitio se construyó siguiendo una estructura ordenada de carpetas y archivos, lo que hace que sea más fácil mantenerlo y ampliarlo en el futuro.
+La distribución quedó de esta manera:
+
+NOTICIAS TECNOLÓGICAS
+│── index.html        → Página principal, portada y noticias destacadas
+│── noticias.html     → Página con el listado completo de noticias
+│── noticia1.html     → Detalle de una noticia específica
+│── contacto.html     → Formulario de contacto
+│
+├── css/
+│   └── estilos.css   → Archivo con los estilos del sitio
+│
+├── js/
+│   └── script.js     → Archivo JavaScript para el cambio de tema
+│
+└── img/
+    ├── ia.jpg
+    ├── robotica.jpg
+    ├── gadget.jpg
+    ├── logo.png
+    └── portada.jpg   → Imagen principal de inicio
+
+3. Lo más importante del sitio
+
+Diseño adaptable (responsive): se ajusta a diferentes pantallas, mejorando la experiencia tanto en móviles como en computadoras.
+Interfaz sencilla y moderna: la barra de navegación en la parte superior permite moverse entre secciones de forma rápida.
+Modo claro y oscuro: con un botón el usuario puede elegir cómo visualizar el sitio, mejorando la comodidad de lectura.
+
+Contenido organizado:
+Página principal con portada e introducción a las noticias.
+Sección de noticias con listado más amplio.
+Página de detalle para ampliar la información de una noticia.
+Página de contacto con un formulario simple.
+Uso de imágenes: se incorporaron cinco imágenes clave (IA, robótica, gadgets, portada y logo) para hacer que la experiencia sea más visual y atractiva.
+
+4. Herramientas utilizadas
+
+HTML5: para la estructura y organización de los contenidos.
+CSS3: para el diseño visual, colores, tipografías y adaptación a pantallas.
+JavaScript: para darle dinamismo, especialmente en el cambio de tema (claro/oscuro).
+Además, se cuidó que el código esté bien organizado, comentado y separado en carpetas (estilos, scripts e imágenes).
+
+5. Conclusiones
+
+Este proyecto no solo cumple la función de mostrar noticias tecnológicas, sino que también demuestra cómo aplicar en conjunto las herramientas básicas del desarrollo web para crear un producto atractivo, funcional y fácil de mantener.
+Un aspecto destacable es que el sitio no está cerrado: en el futuro se pueden agregar nuevas secciones, integrar más noticias o incluso enlazarlo con APIs en tiempo real para que el contenido se actualice automáticamente.
+En resumen, este trabajo es una base sólida y práctica para seguir aprendiendo y construyendo proyectos web cada vez más completos.

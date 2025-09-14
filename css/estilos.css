@@ -1,0 +1,188 @@
+/* === Variables de tema === */
+:root {
+  --color-bg: #111;
+  --color-text: #f4f4f4;
+  --color-header: #f9f9f9;
+  --color-header-text: #111;
+  --color-card: #1c1c1c;
+}
+
+body.light {
+  --color-bg: #f9f9f9;
+  --color-text: #111;
+  --color-header: #111;
+  --color-header-text: #f9f9f9;
+  --color-card: #fff;
+}
+
+/* === Reset básico === */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  transition: all 0.3s ease-in-out;
+}
+
+/* === Navbar === */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-header);
+  padding: 10px 20px;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  color: var(--color-header-text);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar .logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin: 0 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: var(--color-header-text);
+  font-weight: bold;
+}
+
+.menu a.active {
+  border-bottom: 2px solid var(--color-header-text);
+}
+
+/* Botón tema */
+#theme-toggle {
+  border: none;
+  background: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* === Hero === */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* === Noticias === */
+.noticias {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: var(--color-card);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card h2 {
+  margin: 10px;
+}
+
+.card p {
+  margin: 10px;
+}
+
+/* === Lista noticias === */
+.lista-noticias {
+  list-style: square;
+  padding: 20px;
+}
+
+.lista-noticias li {
+  margin: 10px 0;
+}
+
+.lista-noticias a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.lista-noticias a:hover {
+  text-decoration: underline;
+}
+
+/* === Detalle noticia === */
+.detalle-noticia {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.detalle-noticia img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+/* === Formulario === */
+.formulario {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+}
+
+.formulario label {
+  margin: 10px 0 5px;
+}
+
+.formulario input,
+.formulario textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.formulario button {
+  margin-top: 15px;
+  padding: 10px;
+  background: var(--color-header);
+  color: var(--color-header-text);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  opacity: 0.8;
+}
+
+/* === Footer === */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: var(--color-header);
+  color: var(--color-header-text);
+}
